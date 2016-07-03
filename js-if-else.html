@@ -1,0 +1,37 @@
+<html>
+    
+    <head>
+        <title>If Else Statement</title>
+        
+        <!-- Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+    </head>
+    
+    <body>
+        
+        <h1>If Else Statement</h1>
+        
+        <div id="box1"></div>
+        
+        <script type="text/javascript">
+        
+            var age = 35;
+            
+            if(age < 30) {
+                document.getElementById("box1").innerHTML = "you're just a youngin";
+                document.getElementById("box1").style.color = "red";
+            } else if(age > 50) {
+                document.getElementById("box1").innerHTML = "You are older than 50";
+                document.getElementById("box1").style.color = "blue";
+            } else {
+                document.getElementById("box1").innerHTML = "You must be between 30 and 50 years old";
+                document.getElementById("box1").style.color = "green";
+            }
+        
+        </script>
+        
+        
+        
+    </body>
+    
+</html>
